@@ -33,4 +33,4 @@ fn food_spawner(mut commands: Commands) {
 }
 
 #[derive(Component)]
-struct Food;
+pub struct Food;
